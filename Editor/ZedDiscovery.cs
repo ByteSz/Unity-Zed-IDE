@@ -23,7 +23,7 @@ namespace UnityZed
                 // [Linux] (Flatpak)
                 ("/var/lib/flatpak/app/dev.zed.Zed/current/active/files/bin/zed", null),
 
-                // [Linux] (Repo) 
+                // [Linux] (Repo)
                 ("/usr/bin/zeditor", null),
 
                 // [Linux] (NixOS)
@@ -39,7 +39,7 @@ namespace UnityZed
                 // [Windows] (Official Website - CLI Local Install)
                 (NPath.HomeDirectory.Combine("AppData/Local/Programs/Zed/bin/zed.exe"), null),
                 // [Windows] (Official Website - CLI Global Install)
-                (Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "/Zed/bin/zed.exe"), null),
+                (Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "Zed/bin/zed.exe"), null),
                 // [Windows] (Official Website - GUI Local Install)
                 (NPath.HomeDirectory.Combine("AppData/Local/Programs/Zed/Zed.exe"), null),
                 // [Windows] (Official Website - GUI Global Install)
